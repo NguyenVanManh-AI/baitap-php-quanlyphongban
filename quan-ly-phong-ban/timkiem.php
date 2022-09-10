@@ -86,13 +86,6 @@
                                 echo "<td>".$row['Mota']."</td>";
                             }
                         }
-                        /*
-                            CHÚ Ý : $row['IDNV'] chính là cái title khi ta hiển thị ra trong mysql 
-                            chứ không phải $row['nv.IDNV'] . 
-                            Vậy nên ví dụ $sql = "SELECT nv.IDNV as id_nhanvien, nv.Hoten, nv.Diachi,....
-                            => tiêu đề của cột khi hiển thị trong mysql là id_nhanvien => $row['id_nhanvien']
-                        
-                        */
 
                         $mysql_db->close();
                     ?>

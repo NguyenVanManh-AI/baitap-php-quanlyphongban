@@ -65,15 +65,6 @@
                                     echo "<td>".$row['Hoten']."</td>";
                                     echo "<td>".$row['Diachi']."</td>";	
                                     echo "<td><input type='checkbox' name='checkedId[]' value='".$row['IDNV']."'></td>";
-                                    /* Bên js thì nên console.log ra cho khỏe . Còn bên PHP thì nên echo ra $_POST các kiểu cho khỏe
-                                    Làm gì cũng vậy . in ra xem có được cái gì là khỏe nhất . 
-                                    
-                                    CHÚ Ý : Nếu ta để name='checkedId[]' thì sẽ được một mảng các input được checked 
-                                    Còn nếu để name='checkedId' thì chỉ được cái input được checked gần nhất . 
-
-
-
-                                    */
                                 }
                             }
                             $mysql_db->close();

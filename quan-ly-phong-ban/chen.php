@@ -69,11 +69,6 @@
         var spIDPB = document.getElementById("spIDPB");
         var spDiachi = document.getElementById("spDiachi");
 
-
-        // kiểm tra xem IDNV đã tồn tại hay chưa (đúng ra là phải để ID kiểu number và tự động tăng)
-        // còn nếu để ID kiểu varchar thì lấy ra phần số lớn nhất ví dụ NV20 => lấy ra 20 => 20 tăng lên 21 => thành NV21 mới đúng 
-        // ID mà nhập là không đúng rồi  
-
         var ok = document.getElementById("ok");
         ok.addEventListener("click", function(event){
             if(IDNV.value == '' || Hoten.value == '' || IDPB.value == '' || Diachi.value == ''){
