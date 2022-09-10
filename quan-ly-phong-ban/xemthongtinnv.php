@@ -18,7 +18,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Cập nhật</title>
+	<title>Thông tin Nhân viên</title>
 	<link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/cosmo/bootstrap.min.css" rel="stylesheet" integrity="sha384-qdQEsAI45WFCO5QwXBelBe1rR9Nwiss4rGEqiszC+9olH1ScrLrMQr1KmDR964uZ" crossorigin="anonymous">
     <style>
         button > a {
